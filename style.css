@@ -1,0 +1,129 @@
+/* css reset */
+* {
+    margin: 0;
+
+}
+
+body {
+    background: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    margin: 20px;
+    background: navy;
+    padding: 20px;
+
+    h2 {
+        color: darkcyan;
+    }
+
+}
+
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.firstbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+    img {
+        height: 100px;
+    }
+}
+
+.corphead {
+    color: white;
+    font-size: larger;
+
+
+    a {
+        display: flex;
+        flex-direction: row;
+        color: rgba(8, 204, 221, 0.839);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+main {
+    padding: 20px;
+
+    h2 {
+        color: navy;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+    }
+
+    p {
+        font-size: larger;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.tab-comp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+
+    div {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    div.titolo {
+        font-weight: bold;
+        color: navy;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    div.competenza {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+.esperienze {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h3 {
+        color: rgb(8, 204, 221);
+
+
+    }
+
+    p {
+        color: #535252;
+        font-style: oblique;
+
+    }
+
+    ul {
+        font-size: 18px;
+    }
+
+    div {
+        margin: 10px;
+    }
+
+}
+
+footer {
+    margin-bottom: 30px;
+    padding: 10px;
+}
